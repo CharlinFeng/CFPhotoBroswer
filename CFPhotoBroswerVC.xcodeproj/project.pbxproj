@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895531031B77B44200916FF2 /* CFPhotoBroserVC+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895531021B77B44200916FF2 /* CFPhotoBroserVC+Model.swift */; };
+		895DBF1F1B6DFC4F00F033D5 /* CFPhotoBroswer+PBType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895DBF1E1B6DFC4F00F033D5 /* CFPhotoBroswer+PBType.swift */; };
+		8962B15C1B68E677006AA348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B15B1B68E677006AA348 /* AppDelegate.swift */; };
+		8962B15E1B68E677006AA348 /* LocalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B15D1B68E677006AA348 /* LocalVC.swift */; };
+		8962B1611B68E677006AA348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8962B15F1B68E677006AA348 /* Main.storyboard */; };
+		8962B1631B68E677006AA348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8962B1621B68E677006AA348 /* Images.xcassets */; };
+		8962B1661B68E677006AA348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8962B1641B68E677006AA348 /* LaunchScreen.xib */; };
+		8962B1721B68E677006AA348 /* CFPhotoBroswerVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1711B68E677006AA348 /* CFPhotoBroswerVCTests.swift */; };
+		8962B17D1B68E745006AA348 /* CFPhotoBroswerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B17C1B68E745006AA348 /* CFPhotoBroswerVC.swift */; };
+		8962B17F1B68E7AF006AA348 /* CFPhotoBroswerVC+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B17E1B68E7AF006AA348 /* CFPhotoBroswerVC+Main.swift */; };
+		8962B1911B68F28A006AA348 /* CFSnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1811B68F28A006AA348 /* CFSnapKit.swift */; };
+		8962B1921B68F28A006AA348 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1831B68F28A006AA348 /* Constraint.swift */; };
+		8962B1931B68F28A006AA348 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1841B68F28A006AA348 /* ConstraintAttributes.swift */; };
+		8962B1941B68F28A006AA348 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1851B68F28A006AA348 /* ConstraintDescription.swift */; };
+		8962B1951B68F28A006AA348 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1861B68F28A006AA348 /* ConstraintItem.swift */; };
+		8962B1961B68F28A006AA348 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1871B68F28A006AA348 /* ConstraintMaker.swift */; };
+		8962B1971B68F28A006AA348 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1881B68F28A006AA348 /* ConstraintRelation.swift */; };
+		8962B1981B68F28A006AA348 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1891B68F28A006AA348 /* Debugging.swift */; };
+		8962B1991B68F28A006AA348 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B18A1B68F28A006AA348 /* EdgeInsets.swift */; };
+		8962B19A1B68F28A006AA348 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8962B18B1B68F28A006AA348 /* Info.plist */; };
+		8962B19B1B68F28A006AA348 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B18C1B68F28A006AA348 /* LayoutConstraint.swift */; };
+		8962B19C1B68F28A006AA348 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B18E1B68F28A006AA348 /* SnapKit.swift */; };
+		8962B19D1B68F28A006AA348 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B18F1B68F28A006AA348 /* View+SnapKit.swift */; };
+		8962B19E1B68F28A006AA348 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8962B1901B68F28A006AA348 /* ViewController+SnapKit.swift */; };
+		896D7B7B1B6D960100752328 /* CFPhotoBroserVC+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896D7B7A1B6D960100752328 /* CFPhotoBroserVC+Common.swift */; };
+		896D7B7F1B6DA63200752328 /* pic.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 896D7B7E1B6DA63200752328 /* pic.bundle */; };
+		897F982D1B68F3FC006C7595 /* CFPhotoBroswerVC+CollectionViewExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F982C1B68F3FC006C7595 /* CFPhotoBroswerVC+CollectionViewExtend.swift */; };
+		897F98331B68F9BB006C7595 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F98321B68F9BB006C7595 /* CollectionView.swift */; };
+		897F98351B68F9FF006C7595 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F98341B68F9FF006C7595 /* Layout.swift */; };
+		897F98391B68FC10006C7595 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897F98371B68FC10006C7595 /* ItemCell.swift */; };
+		897F983A1B68FC10006C7595 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 897F98381B68FC10006C7595 /* ItemCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8962B16C1B68E677006AA348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8962B14E1B68E677006AA348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8962B1551B68E677006AA348;
+			remoteInfo = CFPhotoBroswerVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895531021B77B44200916FF2 /* CFPhotoBroserVC+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CFPhotoBroserVC+Model.swift"; sourceTree = "<group>"; };
+		895DBF1E1B6DFC4F00F033D5 /* CFPhotoBroswer+PBType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CFPhotoBroswer+PBType.swift"; sourceTree = "<group>"; };
+		8962B1561B68E677006AA348 /* CFPhotoBroswerVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFPhotoBroswerVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8962B15A1B68E677006AA348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8962B15B1B68E677006AA348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8962B15D1B68E677006AA348 /* LocalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVC.swift; sourceTree = "<group>"; };
+		8962B1601B68E677006AA348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8962B1621B68E677006AA348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8962B1651B68E677006AA348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8962B16B1B68E677006AA348 /* CFPhotoBroswerVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFPhotoBroswerVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8962B1701B68E677006AA348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8962B1711B68E677006AA348 /* CFPhotoBroswerVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFPhotoBroswerVCTests.swift; sourceTree = "<group>"; };
+		8962B17C1B68E745006AA348 /* CFPhotoBroswerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFPhotoBroswerVC.swift; sourceTree = "<group>"; };
+		8962B17E1B68E7AF006AA348 /* CFPhotoBroswerVC+Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CFPhotoBroswerVC+Main.swift"; sourceTree = "<group>"; };
+		8962B1811B68F28A006AA348 /* CFSnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSnapKit.swift; sourceTree = "<group>"; };
+		8962B1831B68F28A006AA348 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		8962B1841B68F28A006AA348 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		8962B1851B68F28A006AA348 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		8962B1861B68F28A006AA348 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		8962B1871B68F28A006AA348 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		8962B1881B68F28A006AA348 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		8962B1891B68F28A006AA348 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		8962B18A1B68F28A006AA348 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		8962B18B1B68F28A006AA348 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8962B18C1B68F28A006AA348 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		8962B18D1B68F28A006AA348 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		8962B18E1B68F28A006AA348 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		8962B18F1B68F28A006AA348 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		8962B1901B68F28A006AA348 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		896D7B7A1B6D960100752328 /* CFPhotoBroserVC+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CFPhotoBroserVC+Common.swift"; sourceTree = "<group>"; };
+		896D7B7E1B6DA63200752328 /* pic.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = pic.bundle; sourceTree = "<group>"; };
+		897F982C1B68F3FC006C7595 /* CFPhotoBroswerVC+CollectionViewExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CFPhotoBroswerVC+CollectionViewExtend.swift"; sourceTree = "<group>"; };
+		897F98321B68F9BB006C7595 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		897F98341B68F9FF006C7595 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		897F98371B68FC10006C7595 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		897F98381B68FC10006C7595 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8962B1531B68E677006AA348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8962B1681B68E677006AA348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895531011B77B42B00916FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				895531021B77B44200916FF2 /* CFPhotoBroserVC+Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8962B14D1B68E677006AA348 = {
+			isa = PBXGroup;
+			children = (
+				8962B1581B68E677006AA348 /* CFPhotoBroswerVC */,
+				8962B16E1B68E677006AA348 /* CFPhotoBroswerVCTests */,
+				8962B1571B68E677006AA348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8962B1571B68E677006AA348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8962B1561B68E677006AA348 /* CFPhotoBroswerVC.app */,
+				8962B16B1B68E677006AA348 /* CFPhotoBroswerVCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8962B1581B68E677006AA348 /* CFPhotoBroswerVC */ = {
+			isa = PBXGroup;
+			children = (
+				8962B17B1B68E734006AA348 /* CFPhotoBroswerVC */,
+				8962B1801B68F28A006AA348 /* CFSnapKit */,
+				8962B15B1B68E677006AA348 /* AppDelegate.swift */,
+				8962B15D1B68E677006AA348 /* LocalVC.swift */,
+				8962B15F1B68E677006AA348 /* Main.storyboard */,
+				8962B1621B68E677006AA348 /* Images.xcassets */,
+				8962B1641B68E677006AA348 /* LaunchScreen.xib */,
+				8962B1591B68E677006AA348 /* Supporting Files */,
+			);
+			path = CFPhotoBroswerVC;
+			sourceTree = "<group>";
+		};
+		8962B1591B68E677006AA348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8962B15A1B68E677006AA348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8962B16E1B68E677006AA348 /* CFPhotoBroswerVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8962B1711B68E677006AA348 /* CFPhotoBroswerVCTests.swift */,
+				8962B16F1B68E677006AA348 /* Supporting Files */,
+			);
+			path = CFPhotoBroswerVCTests;
+			sourceTree = "<group>";
+		};
+		8962B16F1B68E677006AA348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8962B1701B68E677006AA348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8962B17B1B68E734006AA348 /* CFPhotoBroswerVC */ = {
+			isa = PBXGroup;
+			children = (
+				8962B17C1B68E745006AA348 /* CFPhotoBroswerVC.swift */,
+				8962B17E1B68E7AF006AA348 /* CFPhotoBroswerVC+Main.swift */,
+				897F982C1B68F3FC006C7595 /* CFPhotoBroswerVC+CollectionViewExtend.swift */,
+				895DBF1E1B6DFC4F00F033D5 /* CFPhotoBroswer+PBType.swift */,
+				897F982E1B68F76E006C7595 /* Layout */,
+				895531011B77B42B00916FF2 /* Model */,
+				897F98311B68F957006C7595 /* CollectionView */,
+				896D7B791B6D95E800752328 /* Common */,
+			);
+			path = CFPhotoBroswerVC;
+			sourceTree = "<group>";
+		};
+		8962B1801B68F28A006AA348 /* CFSnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				8962B1811B68F28A006AA348 /* CFSnapKit.swift */,
+				8962B1821B68F28A006AA348 /* Lib */,
+			);
+			path = CFSnapKit;
+			sourceTree = "<group>";
+		};
+		8962B1821B68F28A006AA348 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8962B1831B68F28A006AA348 /* Constraint.swift */,
+				8962B1841B68F28A006AA348 /* ConstraintAttributes.swift */,
+				8962B1851B68F28A006AA348 /* ConstraintDescription.swift */,
+				8962B1861B68F28A006AA348 /* ConstraintItem.swift */,
+				8962B1871B68F28A006AA348 /* ConstraintMaker.swift */,
+				8962B1881B68F28A006AA348 /* ConstraintRelation.swift */,
+				8962B1891B68F28A006AA348 /* Debugging.swift */,
+				8962B18A1B68F28A006AA348 /* EdgeInsets.swift */,
+				8962B18B1B68F28A006AA348 /* Info.plist */,
+				8962B18C1B68F28A006AA348 /* LayoutConstraint.swift */,
+				8962B18D1B68F28A006AA348 /* SnapKit.h */,
+				8962B18E1B68F28A006AA348 /* SnapKit.swift */,
+				8962B18F1B68F28A006AA348 /* View+SnapKit.swift */,
+				8962B1901B68F28A006AA348 /* ViewController+SnapKit.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		896D7B791B6D95E800752328 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				896D7B7E1B6DA63200752328 /* pic.bundle */,
+				896D7B7A1B6D960100752328 /* CFPhotoBroserVC+Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		897F982E1B68F76E006C7595 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				897F98341B68F9FF006C7595 /* Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		897F98311B68F957006C7595 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				897F98361B68FBEE006C7595 /* Cell */,
+				897F98321B68F9BB006C7595 /* CollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		897F98361B68FBEE006C7595 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				897F98371B68FC10006C7595 /* ItemCell.swift */,
+				897F98381B68FC10006C7595 /* ItemCell.xib */,
+			);
+			name = Cell;
+			path = ../Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8962B1551B68E677006AA348 /* CFPhotoBroswerVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8962B1751B68E677006AA348 /* Build configuration list for PBXNativeTarget "CFPhotoBroswerVC" */;
+			buildPhases = (
+				8962B1521B68E677006AA348 /* Sources */,
+				8962B1531B68E677006AA348 /* Frameworks */,
+				8962B1541B68E677006AA348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFPhotoBroswerVC;
+			productName = CFPhotoBroswerVC;
+			productReference = 8962B1561B68E677006AA348 /* CFPhotoBroswerVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8962B16A1B68E677006AA348 /* CFPhotoBroswerVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8962B1781B68E677006AA348 /* Build configuration list for PBXNativeTarget "CFPhotoBroswerVCTests" */;
+			buildPhases = (
+				8962B1671B68E677006AA348 /* Sources */,
+				8962B1681B68E677006AA348 /* Frameworks */,
+				8962B1691B68E677006AA348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8962B16D1B68E677006AA348 /* PBXTargetDependency */,
+			);
+			name = CFPhotoBroswerVCTests;
+			productName = CFPhotoBroswerVCTests;
+			productReference = 8962B16B1B68E677006AA348 /* CFPhotoBroswerVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8962B14E1B68E677006AA348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "冯成林";
+				TargetAttributes = {
+					8962B1551B68E677006AA348 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8962B16A1B68E677006AA348 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8962B1551B68E677006AA348;
+					};
+				};
+			};
+			buildConfigurationList = 8962B1511B68E677006AA348 /* Build configuration list for PBXProject "CFPhotoBroswerVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8962B14D1B68E677006AA348;
+			productRefGroup = 8962B1571B68E677006AA348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8962B1551B68E677006AA348 /* CFPhotoBroswerVC */,
+				8962B16A1B68E677006AA348 /* CFPhotoBroswerVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8962B1541B68E677006AA348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8962B19A1B68F28A006AA348 /* Info.plist in Resources */,
+				8962B1611B68E677006AA348 /* Main.storyboard in Resources */,
+				897F983A1B68FC10006C7595 /* ItemCell.xib in Resources */,
+				896D7B7F1B6DA63200752328 /* pic.bundle in Resources */,
+				8962B1661B68E677006AA348 /* LaunchScreen.xib in Resources */,
+				8962B1631B68E677006AA348 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8962B1691B68E677006AA348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8962B1521B68E677006AA348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8962B1991B68F28A006AA348 /* EdgeInsets.swift in Sources */,
+				8962B1921B68F28A006AA348 /* Constraint.swift in Sources */,
+				8962B1961B68F28A006AA348 /* ConstraintMaker.swift in Sources */,
+				8962B1971B68F28A006AA348 /* ConstraintRelation.swift in Sources */,
+				8962B15E1B68E677006AA348 /* LocalVC.swift in Sources */,
+				8962B1931B68F28A006AA348 /* ConstraintAttributes.swift in Sources */,
+				8962B1911B68F28A006AA348 /* CFSnapKit.swift in Sources */,
+				8962B19C1B68F28A006AA348 /* SnapKit.swift in Sources */,
+				897F98331B68F9BB006C7595 /* CollectionView.swift in Sources */,
+				8962B15C1B68E677006AA348 /* AppDelegate.swift in Sources */,
+				896D7B7B1B6D960100752328 /* CFPhotoBroserVC+Common.swift in Sources */,
+				8962B17F1B68E7AF006AA348 /* CFPhotoBroswerVC+Main.swift in Sources */,
+				897F98391B68FC10006C7595 /* ItemCell.swift in Sources */,
+				8962B17D1B68E745006AA348 /* CFPhotoBroswerVC.swift in Sources */,
+				8962B1941B68F28A006AA348 /* ConstraintDescription.swift in Sources */,
+				8962B1981B68F28A006AA348 /* Debugging.swift in Sources */,
+				895DBF1F1B6DFC4F00F033D5 /* CFPhotoBroswer+PBType.swift in Sources */,
+				8962B19D1B68F28A006AA348 /* View+SnapKit.swift in Sources */,
+				8962B19B1B68F28A006AA348 /* LayoutConstraint.swift in Sources */,
+				895531031B77B44200916FF2 /* CFPhotoBroserVC+Model.swift in Sources */,
+				8962B1951B68F28A006AA348 /* ConstraintItem.swift in Sources */,
+				897F98351B68F9FF006C7595 /* Layout.swift in Sources */,
+				897F982D1B68F3FC006C7595 /* CFPhotoBroswerVC+CollectionViewExtend.swift in Sources */,
+				8962B19E1B68F28A006AA348 /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8962B1671B68E677006AA348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8962B1721B68E677006AA348 /* CFPhotoBroswerVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8962B16D1B68E677006AA348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8962B1551B68E677006AA348 /* CFPhotoBroswerVC */;
+			targetProxy = 8962B16C1B68E677006AA348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8962B15F1B68E677006AA348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8962B1601B68E677006AA348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8962B1641B68E677006AA348 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8962B1651B68E677006AA348 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8962B1731B68E677006AA348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8962B1741B68E677006AA348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8962B1761B68E677006AA348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CFPhotoBroswerVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8962B1771B68E677006AA348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CFPhotoBroswerVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8962B1791B68E677006AA348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CFPhotoBroswerVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFPhotoBroswerVC.app/CFPhotoBroswerVC";
+			};
+			name = Debug;
+		};
+		8962B17A1B68E677006AA348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CFPhotoBroswerVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFPhotoBroswerVC.app/CFPhotoBroswerVC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8962B1511B68E677006AA348 /* Build configuration list for PBXProject "CFPhotoBroswerVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8962B1731B68E677006AA348 /* Debug */,
+				8962B1741B68E677006AA348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8962B1751B68E677006AA348 /* Build configuration list for PBXNativeTarget "CFPhotoBroswerVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8962B1761B68E677006AA348 /* Debug */,
+				8962B1771B68E677006AA348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8962B1781B68E677006AA348 /* Build configuration list for PBXNativeTarget "CFPhotoBroswerVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8962B1791B68E677006AA348 /* Debug */,
+				8962B17A1B68E677006AA348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8962B14E1B68E677006AA348 /* Project object */;
+}
